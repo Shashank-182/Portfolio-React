@@ -1,10 +1,4 @@
-.nav-link:hover{
-  color: red;
-  transition: 0.4s;
-}
-.anchor-link {
-  text-decoration: none !important;
-}
+
 *{
   margin: 0;
   padding: 0;
