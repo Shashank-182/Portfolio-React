@@ -1,0 +1,131 @@
+.cards {
+  margin-top: 72px;
+}
+
+.row {
+  padding-top: 40px;
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  margin: 10px; 
+}
+
+
+.card {
+  width: 100%; 
+  max-width: 27rem; 
+  margin: 10px;
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  border: none; 
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-img1{
+  background-image: url(/src/images/re-moto.png);
+}
+.bg-img2{
+  background-image: url(/src/images/calculator.png);
+}
+.bg-img3{
+  background-image: url(/src/images/ATM.png);
+}
+.bg-img4{
+  background-image: url(/src/images/final-project.png);
+}
+.bg-img5{
+  background-image: url(/src/images/Untitled\ design.png);
+}
+.bg-img1, .bg-img2, .bg-img3, .bg-img4,.bg-img5 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-size: cover; 
+  background-position: center;
+  min-height: 250px; 
+}
+
+.shutter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.bg-img1:hover .shutter,
+.bg-img2:hover .shutter,
+.bg-img3:hover .shutter,
+.bg-img4:hover .shutter,
+.bg-img5:hover .shutter {
+  transform: translateY(0);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+  background: transparent;
+}
+.button-container a{
+  background: transparent;
+  margin-left: 10px;
+
+}
+.btn {
+  display: inline-block;
+
+}
+
+.icons-item {
+  background: transparent;
+}
+
+.icn {
+  background: transparent;
+  color: black;
+}
+
+.icn:hover {
+  color: red;
+}
+
+@media (min-width: 769px) {
+  .row {
+      flex-wrap: nowrap; 
+      overflow-x: auto;
+  }
+
+  .col {
+      flex: 1 0 21%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col {
+      flex: 1 0 100%; 
+      max-width: 100%; 
+  }
+
+  .card {
+      width: 100% !important; 
+      min-height: 300px; 
+
+  }
+}

@@ -1,0 +1,30 @@
+.cnt{
+    height: 40vh;
+    margin-top: 100px;
+    
+}
+
+.cnt,.hdr{
+    background-color: rgb(55, 55, 55);
+}
+.icn {
+    color: white;
+    transition: 0.3s;
+    font-size: 38px; /* Default size */
+  }
+  .cntskill-icons{
+    display: flex;
+    justify-content: space-around;
+    padding:  55px 30px 30px 30px;
+  }
+  @media(max-width:768px){
+    .cnt{
+      height: 30vh;
+    }
+  }
+
+  @media(max-width:600px){
+    .cnt{
+      height: 20vh;
+    }
+  }

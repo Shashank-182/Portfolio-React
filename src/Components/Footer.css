@@ -1,0 +1,12 @@
+.ftr,.text{
+    background-color: white;
+}
+.ftr{
+    height: 50px;
+    padding: 15px;
+}
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: 30px;
+  }
