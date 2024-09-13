@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import img from '../images/WhatsApp Img.jpg';
-import pdf from '../Resume/SHASHANK-HANUMANDLA.pdf';
+import pdf from '../Resume/SHASHANK_HANUMANDLA.pdf';
 import { FaInstagram,FaWhatsapp,FaGithub,FaLinkedin } from 'react-icons/fa';
 
 function Home(){
